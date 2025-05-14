@@ -1,0 +1,1 @@
+// Inventory list component
