@@ -3,7 +3,7 @@ import pandas as pd
 # Load the CSV file
 df = pd.read_csv("exceptions.csv")
 
-# Helper function to determine ComputerName with fallback
+# Function to get the ComputerName field with priority and prefix
 def get_computer_name(row):
     if pd.notna(row['Computer Name']) and row['Computer Name'].strip():
         return f"CN:{row['Computer Name'].strip().upper()}"
@@ -13,10 +13,14 @@ def get_computer_name(row):
         return f"SN:{row['Serial Number'].strip().upper()}"
     elif pd.notna(row['Barcode']) and row['Barcode'].strip():
         return f"BC:{row['Barcode'].strip().upper()}"
+    elif pd.notna(row['Model']) and row['Model'].strip():
+        return f"MD:{row['Model'].strip().upper()}"
+    elif pd.notna(row['Notes']) and row['Notes'].strip():
+        return f"NT:{row['Notes'].strip().upper()}"
     else:
         return "UNKNOWN"
 
-# Helper function to determine Owner with fallback
+# Function to get the Owner field with fallback logic and prefix
 def get_owner(row):
     if pd.notna(row['Owner']) and row['Owner'].strip():
         return f"OWN:{row['Owner'].strip().upper()}"
@@ -29,14 +33,13 @@ def get_owner(row):
     else:
         return "UNKNOWN"
 
-# Build output DataFrame
+# Create new DataFrame with cleaned and formatted output
 output_df = pd.DataFrame({
     "Lab": df["Lab"].str.upper(),
     "ComputerName": df.apply(get_computer_name, axis=1),
     "Owner": df.apply(get_owner, axis=1)
 })
 
-# Save result
+# Save to output CSV file
 output_df.to_csv("exceptions_cleaned.csv", index=False)
-print("Saved to exceptions_cleaned.csv")
-
+print("✅ Saved cleaned data to 'exceptions_cleaned.csv'")
