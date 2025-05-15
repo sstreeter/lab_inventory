@@ -1,0 +1,70 @@
+Lab,Serial Number,Barcode,Computer Name,Category,Manufacturer,Model,Location,MAC Address,User Name,Owner,Alt MAC,Hostname,Network Connection,Operating System,Notes
+Anatomy,RN1143YWKLB,,,,Apple,"M5521 (EMC 1857) IMAC SE PowerMac4,1 128 MB/40 GB",BIOL 0002,00:30:65:F4:6F:2E,,,,,Not Connected,,Old Computer should be retired
+Anatomy,XB23305SMMA,,,,Apple,M8570 (EMC 1914) Power Macintosh G4 1.0 DP (MDD) 1 GHZ 256MB /80GB,BIOL 0002,00:03:93:D7:6B:26,,,,,Not Connected,,Old Computer should be retired
+Anatomy,XB23803SMXD,000218,,,Apple,M8570 (EMC 1914) Power Macintosh G4 1.25 DP (MDD) 1.25 GHz PowerPC 7455 (G4)x2 512MB/120GB,BIOL 0002,00:03:93:AC:9E:66,,,,,Not Connected,,Old Computer should be retired
+Anatomy,D5JNG41,N009336,,,Dell,OptiPlex GX270,BIOL 0068,00:0D:56:92:45:63,,,,,Not Connected,Windows XP Professional,"Computer in dissection lab, connected to microscope"
+Anatomy,C07NP50DG1HV,,Admin’s Mac mini,,Apple,Mac Mini,BIOL 0003,98:5A:EB:DD:31:E0,,,,f-ana-biol003a,Not Connected,macOS Sierra 10.12.6,Used for TA's to administer exams/quizes  and review current teaching tools using flash-based curriculum.
+Anatomy,G880541UXYL,,MacBookPro,,Apple,"MacPro3,1 Quad-Core Intel Xeon 2.8 GHz 6 GB/500GB/1TB/1TB/500GB",BIOL 0088,00:1D:4F:47:36:C0,,,,,Not Connected,OS X Mavericks 10.9.5,Used to develop and maintain teaching tools that use flash.
+Anatomy,C02Q13Z3F8J2,,Admin’s iMac,,Apple,"iMac14,1 Intel Core i5 2.7 GHz 8 GB/1 TB",BIOL 0005,98:5A:EB:DD:31:E0,,,,,Not Connected,macOS Mojave 10.14.6 ,Used for TA's to administer make-up exams and review current teaching tools using flash-based curriculum.
+Anderegg,4QF1V91,,f-and-asb533-x-dell-hydrolics,,Dell,Dell Optiplex GX620 Pentium 2.8GHz/3GB/1TB,ASB 533,,,,,,Not Connected,Windows XP Professional v2002,Microscope
+Anderegg,7ITSA20809,,f-and-asb510-x-field-laptop,,Panasonic,Panasonic CF53-4 i5 2GHz 2 cores 16GB/1TB,ASB 510,,,,,,Not Connected,Windows 10 Pro,Field Laptop
+Anderegg,C02QJ6U1GG7N,66796,f-and-asb510-x-t-lengyel-imac2015,,Apple,"Apple iMac Intel Core i5 3.3 GHz 8GB/2TB,128GB",ASB 510,38:C9:86:0E:79:76,,,,,Not Connected,macOS 12.7.4 (Monterey),Used to scan Leaves
+Anderegg,C07CX03WDD6L,,f-and-asb510-x-mm2010,,Apple,Apple Mac mini (Mid 2010) 2.66GHz Intel Core 2 Duo 10GB/256GB,ASB 510,,,,,,Not Connected,macOS 10.12.6,Computer Attached to a Scanner
+Anderegg,CNU6100ZF9,,f-and-asb510-x-compaq-nc6230,,HP-Compaq,HP-Compaq nc6230 M Processor 2GHz 2GB/100GB,ASB 510,00:16:6F:39:F6:68,,,,nc6230,Not Connected,Windows 7 Professional,Measures changes on balance water -runs Excel script
+Anderegg,CNU523359K,,f-and-asb533-x-compaq-hydrolics-nc6120,,HP,HP-COMPAQ nc6120 Intel Pentium 1.86GHz 1GB/40GB,ASB 510,E2:7A:D0:FA:AD:B4,,,,NC6120,Not Connected,Windows XP Professional,Used to measure hydrolics
+Anderegg,LUS570B146911169021601,,f-and-asb510-x-acer-microscope,,Acer,Acer Aspire One Series D150-1577/KAV10 1GB/100GB,ASB 510,,,,,,Not Connected,Windows XP Home Edition,Field Laptop Runs LoggerNet
+Babst,2UA72027NV,,f-bab-csc32-x-olympus-microscope,,HP,"HP Z640 Intel Xeon E5-2630 v3 2.4GH (DP) 64GB/500GB,3TB,3TB,5TB",CSC 032,A0:8C:FD:E1:DE:EC,,,00:80:0F:11:70:00,SBS-BAB-OLYMPUS,,Windows 7 Professional,"Connected to Microscope, Replacement cost $150k. It might be upgradable for $5k-$7k, but upgrading is risky and this computer is essential and Babst can't risk upgrading it."
+Babst,4099479-0001,,f-bab-csc31-x-hplc,,MPC,MPC ClientPro x86 Intel 3.4GHz 2GB/80GB,CSC 031,00:13:20:B2:2E:46,,,,4099479-0001,,Windows XP Professional ,"Connected to HPLC, Replacement cost $50k-$70k"
+Babst,FSMW011,,f-bab-csc31-x-dell-oxygen,,Dell,Dell Optiplex GX150 966MHz 325MB/10GB,CSC 031,00:06:5B:50:4F:6E,,,,markus-976a13j8,,Windows 2000 Professional,"Connected to an Oxygen Electrode, Replacement cost $15k-$20k"
+Babst,4HJHTK1,,,,Dell,4HJHTK1,CSC 032,,,,,,Not Connected,Windows 7,Laptop controls a microfluidics device
+Blair,C02SY1GMGG7L,,f-bla-asb370a-x-imac2015,,Apple,Apple iMac Intel Core i5 3.2 GHz 8GB/1TB,ASB 370A,38:C9:86:53:83:FE,,,,iMac,,macOS High Sierra 10.12.6,Used for Special Software
+Blair,CO2RWFJPG8WN,,f-bla-asb370a-x-mbp2015,,Apple,Apple MacBookPro 2015 2.2GHz Intel Core i7 16GB/256GB,ASB 370A,98:01:A7:A4:3E:CB,,,,MacBook Pro (9),,macOS High Sierra 10.13.6,"Used for Special Software (e.g Swiss PDB Viewer,etc.)"
+Blair,QP70419TVUW,,f-bla-asb370-x-imac2007,,Apple,"Apple iMac5,1 Intel Core Duo 2.16GHz 1GB/235GB",ASB 370,00:17:F2:CC:43:A3,,,,David Blair's Computer,,macOS 10.4.11,Used for Special Software
+Blair,W89471125PC,,f-bla-asb370-x-imac2009,,Apple,"Apple iMac 10,1 Intel Core Duo 2 3.06 GHz 4GB/500GB",ASB 370,00:26:BB:55:C1:5A,,,,BlairLab Print Server (5),,macOS 10.6.8,Used for Special Software
+Caron,,,,,,,ASB 329,,,,,,Not Connected,Windows,Laser controller
+Carrier,,,,,Apple,PowerMacs,BIOl 122,,,,,,,,
+Casjens,C02PJ0DZG3QP,57954,,,Apple,"MacBookPro11,3",,,,,,,,,
+Casjens,C0PJ07YGFWL,57953,,,Apple,"MacBookAir7,1",,,,,,,,,
+Clark,,,,,,,BIOL 331E,,,,,,,,"Dual boot Mac/Windows 7, runs LED camera system on a high-end microscope. Not on the internet."
+Clayton,HTW2BP1,,f-cly-asb585-x-dell-microscope,,Dell,Dell Precision T3500 Intel Xeon 3GHz / 4GB/3TB,ASB 585,,,,,,,Windows 7 Professional,Microscope/Scanner for imaging slides
+Farmer,1XFBY01,271901,f-far-biol211-x-dell-xp-slicer,,Dell,Dell Latitude C810 1.1GHz 384MB/28GB,BIOL 211,,,,,,,Windows XP ,Slicer CT Data and using with Arduinos
+Goldenberg,1428004,,f-gld-csc31-x-microcalorimeter,,CUSTOM,MicroCalorimter Contorl Unit PC -OMNI TECH -OEM-H3222D00 Celeron 2MHz,CSC 031,,,,,,,Windows XP,Connected to MicroCal -MicroCalorimeter VP-ITC
+Heejin Yoo,CZC1387CTZ/N00932Z or MXL1494HGB/N009329,,,,HP,Z2 SFF G5 Workstation,ASB 462a,,,,,,,,Connected to HPLC
+Heejin Yoo,CZC1387CTZ/N00932Z or MXL1494HGB/N009329,,,,HP,Z2 SFF G5 Workstation,ASB 462a,,,,,,,,"Connected to GC-MS (Gas Chromatography-Mass Spectrometry), not networked"
+Horvath,3CR22602B8,,f-hor-asb357-x-hp-fplc,,HP,HP P2-1124 AMD 1.3GHz 4GB / 500GB,ASB 357,4C:72:B9:2F:62:65,,,,Horvath-FPLC,,Windows 7 Professional,FPLC no network Runs Unicorn software 5.31
+Horvath,5N75Q61,,f-hor-asb440-x-dell-nanodrop,,Dell,"Dell Inspiron 1200 Laptop Model 13, PP10S Celeron 1.296 GHz 256MB /232GB",ASB 440,00:12:3F:16:C5:BC,,,,biology-49d4ac4,,Windows XP Professional,NanoDrop
+Horvath,MXK3400GWM NA300,,f-hor-asb440-x-hp-hplc,,HP,HP Pavilion a350n Intel Model 2 2.9GHz 1GB / 230GB ,ASB 440,22:4A:4D:2D:35:68,,,00:0C:6E:C6:82:7E;00:01:02:85:8C:68,horvathhplc,,Windows XP Professional,HPLC Empower Software
+Horvath,,,,,,Beckman Instruments Du Series 600 Spectrophotometer,ASB 440,,,,,,,,
+Horvath,,,,,,"Starwest laptop, Windows XP",ASB 440,,,,,,,,
+Horvath,,,,,,Linux PC,BIOL 304,,,,,,,,
+Horvath,,,,,,PC Xray,BIOL 304,,,,,,,,
+Hughes,3BT9DX1,,f-hug-biol217-x-dell-pcr,,Dell,Dell Optiplex 7010 i3 3.30 GHz 4GB/300GB,BIOL 217,,,,,,,Windows 7 Professional,"Plate Reader, Gel Doc Imager, Nano Drop and PCR Machine -Doesn't require network access"
+Hughes,11D93M1,,f-hug-biol212a-x-dell-licor,,Dell,Dell Optiplex 780 i3 3.30 GHz 4GB/146GB,BIOL 212A,,,,,,,Windows Vista Business,Licor Near Infrared Florescent
+Mcintosh,8MPTT21,,f-mci-biol115f-x-dell-hplc,,Dell,Dell Pentium 4 2.2GHz Dimension 2350 512MB/UNK_HD,BIOL 115F?,00:0B:DB:2C:36:EF,,,,bmo-hplc,,Windows XP,Connected to HPLC (Radioactive)
+Mcintosh,2005100503,,f-mci-biol116d-x-amd-hplc,,AMD,"AMD SEM64-3000-1 1.8GHz 256MB X 2 / 1.95GB,111GB",BIOL 116D,00:13:8F:42:D5:6A,,,,Alliance,,Windows NT 4,Connected to Waters 2690 Separations Module (HPLC)
+Mcintosh,DD38V21,,f-mci-biol116d-x-dell-waters600,,Dell,Dell Pentium 4 (In Service),BIOL 116D,,,,,,,Windows XP,Connected to Waters 600 Controller
+Mcintosh,MJ02HVA1,,f-mci-biol116d-x-lenovo-microscope1,,Lenovo,"Lenovo ThinkStation Intel Xeon CPU E3-1241 v3 3.5GHz 8GB/931.51GB,149.01GB",BIOL 116D,6C:0B:84:41:9C:67,,,,McIntosh-PC,,Windows 7 Professional,Connnected to Microscope
+Mcintosh,MJ02HVB2,,f-mci-biol116d-x-lenovo-microscope2,,Lenovo,"Lenovo ThinkStation Intel Xeon CPU E3-1241 v3 3.5GHz 8GB/931.51GB,149.01GB",BIOL 116D,6C:0B:84:42:3F:B8,,,,McIntosh-PC,,Windows 7 Professional,Connnected to Microscope
+Mcintosh,NX28059,,f-mci-biol116d-x-nixsys-hplc,,NIXSYS,NIXSYS Core i7 4GB/232GB 3.591 GHz,BIOL 116D,B4:2E:99:20:8C:B3,,,,Alliance2,,Windows XP Professional,Connected to Waters 2695 Separations Module (HPLC)
+Mulvey,132111958,N001284,f-mul-csc36-x-echo-microscope,,Microsoft,Microsoft MM-ECHO i7-7820HQ 2.9GHz 16GB/1TB,CSC 036,,,,,,,Windows 11 Professional,Echo Revolution Microscope
+Mulvey,MXL1292Q9G,30808,f-mul-csc31-x-hp-biolscreen-c,,HP,HP Compaq 8100 Elite Core i7 860 2.7 8GHz/4GB/232GB,CSC 031,,,,,,,Windows 7 Enterprise,BIOSCREEN C Pippet
+Olivera,8G3MW52,,f-oli-biol116-x-dell-temp-cntl,,Dell,Dell Optiplex 9020 Intel Core i7-4790 3.6GHz 8GB/1TB,BIOL 116,64:00:6A:58:AA:01,,,,OMINICAdmin-PC,,Windows 7 Professional,Temperature Control for Spectrophotometer
+Olivera,658XN11,,f-oli-biol-x-dell-flexstation,,Dell,Dell Dimension 4500S 2GB/20GB,BIOL,00:08:A1:02:E5:B2,,,,Flex2,,Windows XP Home Edition,Connected to Fluorescsent Meter (FLEXstation)
+Olivera,7244FP1,,f-oli-biol116j-x-dell-hplc-2,,Dell,Dell Inspiron 580 Intel Core i3 550 3.2GHz 6GB/500GB,BIOL 116J,00:1B:21:81:EC:B4,,,,conusone-PC,,Windows 7 Professional,Connected to 2 HPLC's CA0000010095 and CA0000010096
+Olivera,C11BLM974C,,f-oli-biol116j-x-dell-hplc-1,,Dell,Dell Inspiron 580 Intel Core i3 550 3.2GHz 6GB/500GB,BIOL 116J,78:2B:CB:8A:1D:2F,,,,OliveraLab-PC,,Windows 7 Professional,Connected to 2 HPLC CA0000010059 and Water 2487 (Waters Prep Old)
+Olivera,D25HT166DHJF,,115cp-mwatkins-geldoc,,Apple,"Apple iMac12,1 Intel Core i5 2.5GHz 8GB/250GB SSD",417 WA Suite 3323,40:6C:8F:28:40:84,,,,115cp-mwatkins-geldoc.med.utah.edu,Connected,macOS 10.13.6 High Sierra,GelDoc computer for Camera
+Parkinson,,,f-par-asb3221-parkinson-syn,,Synology,,ASB 322,,,,,,,,
+Parkinson,,,typhoon,,,typhoon,ASB 230,,,,,,,,typhoon
+Phadnis,,,f-pha-biol212f-synology,,Synology,,BIOL 212f,,,,,,,,
+Rog,,,f-rog-asb353-wd-nas,,Synology,,ASB 353,,,,,,,,
+Rose,,,f-ros-asb387-apex-aqua-ctrl-037,,,Apex Aquarium controller,ASB 387,,,,,,,,
+Shapiro,5CD32746SG,N011637,f-sha-biol325-x-nanodrop,,HP,HP Pavillion 15 Intel Core 13 2.4GHz /4GB/700GB,BIOL 325,A4:5D:36:77:AC:4F,,,BC:85:56:15:FD:2E,,,Windows 7 Professional,Thermo Scientific NanoDrop Spectrophotometer 2000
+Shapiro,18C0PDN612008,,shapiro_drive,,Synology,Synology DS918+,BIOL 325,00:11:32:A1:75:5F 00:11:32:A1:75:60,,,,shapiro_drive,Connected,DiskStation Manager (DSM),Genomic's Data for Pigeon Lice and Flies
+Shapiro,1910PDN970903,,f-sha-biol325-x-ds918-2,,Synology,Synology DS918+,BIOL 325,00:11:32:A6:88:4F 00:11:32:A6:88:50,,,,,Connected,DiskStation Manager (DSM),Genomic's Data for Pigeons andPigeon CT Scans
+Shapiro,9380WG3,,f-sha-biol325c-x-dell-photos,,Dell,Dell Latitude 3420 11Gen Intel i3-1115G4 3GHz 4GB/500GB,BIOL 325C,B4:45:06:56:79:E0,,,,DESKTOP-F7TK884,Not Connected,Windows 10 Professional,Runs Photo software for Gel Imager and Prints to an old Thermal Printer
+Shapiro,C0NVNB1,,f-sha-biol325-x-dell-optiplex,,Dell,Dell Optiplex GX620 2.793GHz 1GB/233GB,BIOL 325,00:13:72:AA:0B:60,,,,Spinachia,Not Connected,Windows XP Professional,"Ask, probably related to Fish as it predates Pigeon research"
+Shapiro,C02TW0UUJ1GQ,,f-sha-biol325-imac20171,,Apple,Apple iMac 2017 Intel i7 4.2GHz 32GB/2TB,BIOL 325,98:10:E8:F3:88:95,,,,f-sha-biol325-imac20171,Not Connected,macOS 10.12.6 (Sierra),Data Analysis Software
+Shapiro,D25QF078FY14,,f-sha-biol325-imac2014,,Dell,Apple iMac 2014 Intel i7 4GHz 32GB/1TB,BIOL 325,38:C9:86:02:C9:CA,,,,Mike's iMac,Not Connected,macOS 10.11.6 (El Capitan),Photos
+Shapiro,DPJ4DP2,,f-sha-biol325e-x-dell-microscope,,Dell,Dell XPS 8930 Intel i7-8700K 3.7GHz 16GB/2TB,BIOL 325E,D8:9E:F3:8F:D9:98,,,,DESKTOP-GNADGSH,Not Connected,Windows 10 Professional,Runs Microsope Imaging software and is Connected to a microscope.
+Vierra,5C3Q2C1,,REALPLEX2,,Dell,Dell Latitude D520 6 Model 14 1.8Ghz 2GB/40GB,ASB 431,02:59:4E:A4:4E:CE,,,,,Not Connected,Windows XP Professional,Connected to eppendorf RealPlex2 for PCR imaging
+Vierra,YM5250UJRU2,,f-vie-asb331-x-patch-clamp-pmac-g5,,Apple,Apple PowerMac G5 2GHz Dual PPC 2GB/150GB,ASB 431,00:11:24:CA:01:F0,,,,Jorgensen's Lab Powermac G5,Not Connected,macOS 10.4.11,Connnected to Patch Clamp (Take Electrical Measurements from Cells) HHMI CPU From JORGENSEN LAB

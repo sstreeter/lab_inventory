@@ -1,0 +1,6 @@
+<h1>ETP Lab Portal</h1>
+<ul>
+  {% for lab in labs %}
+    <li><a href="{{ url_for('main.lab_view', lab_id=lab.id) }}">{{ lab.name }}</a></li>
+  {% endfor %}
+</ul>

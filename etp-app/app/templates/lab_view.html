@@ -1,0 +1,10 @@
+<h1>Submit ETP Justifications for {{ lab.name }}</h1>
+<form method="POST">
+  {% for comp in lab.computers %}
+    <div>
+      <strong>{{ comp.name }}</strong> ({{ comp.owner }}):<br>
+      <textarea name="justification_{{ comp.id }}">{{ comp.submission.justification if comp.submission else '' }}</textarea>
+    </div>
+  {% endfor %}
+  <button type="submit">Submit</button>
+</form>

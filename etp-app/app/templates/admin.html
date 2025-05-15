@@ -1,0 +1,6 @@
+<h1>Admin Panel - ETP Submissions</h1>
+<ul>
+  {% for sub in submissions %}
+    <li>{{ sub.computer.name }} ({{ sub.computer.lab.name }}): {{ sub.justification }}</li>
+  {% endfor %}
+</ul>
