@@ -15,8 +15,14 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Optional: Set which env file to load
-ENV ENV_FILE=.env.dev       # Uncomment for development
+
+# Uncomment .env.dev line for development
+ENV ENV_FILE=.env.dev       
+
+# Uncomment .env.test line for testing
 # ENV ENV_FILE=.env.test    # Uncomment for testing
+
+# Uncomment .env.prod line for production
 # ENV ENV_FILE=.env.prod    # Uncomment for production
 
 # Install python-dotenv if not already listed
