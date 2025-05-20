@@ -1,0 +1,23 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h2>Resolve Conflicts</h2>
+<form method="post">
+    {% for conflict in conflicts %}
+    <div class="card mb-3">
+        <div class="card-header">{{ conflict.identifier }}</div>
+        <div class="card-body">
+            <p><strong>Existing Owner:</strong> {{ conflict.existing.owner }}</p>
+            <p><strong>New Owner:</strong> {{ conflict.new.owner }}</p>
+            <p><strong>Existing Justification:</strong> {{ conflict.existing.justification }}</p>
+            <p><strong>New Justification:</strong> {{ conflict.new.justification }}</p>
+            <select name="resolve_{{ conflict.lab }}_{{ conflict.identifier }}" class="form-select">
+                <option value="keep_existing">Keep Existing</option>
+                <option value="use_new">Use New</option>
+            </select>
+        </div>
+    </div>
+    {% endfor %}
+    <button type="submit" class="btn btn-primary">Resolve</button>
+</form>
+{% endblock %}

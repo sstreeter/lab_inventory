@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Labs</title></head>
+<body>
+    <h1>Lab List</h1>
+    <ul>
+        {% for lab in labs %}
+            <li>{{ lab.name }} ({{ lab.computers | length }} computers)</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('admin.import_csv') }}">Import CSV</a>
+</body>
+</html>
