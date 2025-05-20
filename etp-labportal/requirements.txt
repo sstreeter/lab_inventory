@@ -1,17 +1,33 @@
-alembic==1.15.2
-blinker==1.9.0
-click==8.1.8
+# Core Flask and extensions
 Flask==3.1.1
 Flask-Login==0.6.3
 Flask-Migrate==4.1.0
 Flask-SQLAlchemy==3.1.1
+
+# ORM and Migrations
+SQLAlchemy==2.0.41
+alembic==1.15.2
 greenlet==3.2.2
-importlib_metadata==8.7.0
+Mako==1.3.10
+
+# Flask internal dependencies
+click==8.1.8
 itsdangerous==2.2.0
 Jinja2==3.1.6
-Mako==1.3.10
 MarkupSafe==3.0.2
-SQLAlchemy==2.0.41
-typing_extensions==4.13.2
 Werkzeug==3.1.3
+blinker==1.9.0
+
+# Compatibility / utility
+typing_extensions==4.13.2
+importlib_metadata==8.7.0
 zipp==3.21.0
+python-dotenv==1.0.1
+
+# Optional for env config and production server
+# python-dotenv==1.0.1
+# gunicorn==21.2.0
+
+
+# Development: Use flask run (default in Dockerfile).
+# Production: Uncomment the gunicorn line in the Dockerfile, and comment out or delete the flask run line.
