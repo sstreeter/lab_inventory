@@ -1,0 +1,23 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h2>Lab: {{ lab.name }}</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Identifier</th>
+            <th>Owner</th>
+            <th>Justification</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for comp in lab.computers %}
+        <tr>
+            <td>{{ comp.identifier }}</td>
+            <td>{{ comp.owner }}</td>
+            <td>{{ comp.justification }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

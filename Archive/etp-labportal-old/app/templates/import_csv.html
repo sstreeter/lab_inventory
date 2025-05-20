@@ -1,0 +1,20 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h2>Import Exception CSV</h2>
+<form method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <input type="file" name="csv_file" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>Mode:</label>
+        <select name="mode" class="form-select">
+            <option value="overwrite">Overwrite</option>
+            <option value="merge">Merge</option>
+            <option value="retain">Retain</option>
+            <option value="revert">Revert</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success">Import</button>
+</form>
+{% endblock %}

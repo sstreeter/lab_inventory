@@ -1,3 +1,5 @@
+from app.auth_access_control import require_logged_in
+from app.auth_access_control import restrict_lab_access
 from flask import Blueprint, render_template, request, redirect, url_for, flash, session
 from app import db
 from app.models import Lab, Computer
